@@ -49,7 +49,7 @@ if __name__ == "__main__":
     Test the DC neural network architecture on an example
     
     """
-    load = True # set to False if model has to be retrained
+    load = False # set to False if model has to be retrained
     
     # Load data (generated with "generate_data.py")
     X = np.load('input.npy')
