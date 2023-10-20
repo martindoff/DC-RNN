@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <img src="https://github.com/martindoff/DC-RNN/plot/RNN0.eps" alt="Logo" width="400" height="400">
+   <img src="https://github.com/martindoff/DC-RNN/RNN0.eps" alt="Logo" width="400" height="400">
   <p align="center">
    Recurrent Neural Network (RNN) model with difference-of-convex-functions (DC) structure. 
     <br />  
@@ -79,23 +79,22 @@ Run the following command to install all modules at once
    ```sh
    cd DC-RNN-master
    ```
-3. Run the program
+3. Generate data from the dynamical system
+```python
+   python3 generate_data.py
+   ``` 
+4. Run the program
    ```python
    python3 DC_RNN_model.py
    ```
-### Options
-
-1. To generate data from the dynamical system, run:
-```python
-   python3 generate_data.py
-   ```  
+### Options 
    
-2. To load existing model, set the `load` variable in `DC_RNN_model.py` to `True`
+1. To load an existing model, set the `load` variable in `DC_RNN_model.py` to `True`
 ```python
    load = True
    ``` 
    
-   Set the variable to `False` if the model has to be retrained. 
+   Set the variable to `False` if the model has to be (re)trained. 
 
 
 ## Application
