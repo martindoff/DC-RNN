@@ -130,7 +130,7 @@ if __name__ == "__main__":
         plt.ylabel('loss')
         ax.set(xlim=(epochs[0], epochs[-1]), ylim=(0, 20))
         ax.legend()
-        plt.savefig('plot/loss.eps', format='eps')
+        #plt.savefig('plot/loss.eps', format='eps')
         plt.show()
     
     # Evaluate model

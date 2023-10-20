@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <img src="https://github.com/martindoff/DC-RNN/RNN0.eps" alt="Logo" width="400" height="400">
+   <img src="https://github.com/martindoff/DC-RNN/RNN.png" alt="Logo" width="400" height="400">
   <p align="center">
    Recurrent Neural Network (RNN) model with difference-of-convex-functions (DC) structure. 
     <br />  
@@ -77,9 +77,9 @@ Run the following command to install all modules at once
    ```
 2. Go to directory 
    ```sh
-   cd DC-RNN-master
+   cd DC-RNN
    ```
-3. Generate data from the dynamical system
+3. (Optional) Generate data from the dynamical system
    ```python
    python3 generate_data.py
    ``` 
