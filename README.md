@@ -80,7 +80,7 @@ Run the following command to install all modules at once
    cd DC-RNN-master
    ```
 3. Generate data from the dynamical system
-```python
+   ```python
    python3 generate_data.py
    ``` 
 4. Run the program
