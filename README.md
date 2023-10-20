@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <img src="https://github.com/martindoff/DC-RNN/RNN.png" alt="Logo" width="400" height="400">
+   <img src="https://github.com/martindoff/DC-RNN/blob/main/RNN.png" alt="Logo" width="400" height="400">
   <p align="center">
    Recurrent Neural Network (RNN) model with difference-of-convex-functions (DC) structure. 
     <br />  
@@ -83,6 +83,8 @@ Run the following command to install all modules at once
    ```python
    python3 generate_data.py
    ``` 
+   The data are stored in two files: `input.npy` and `output.npy`
+   
 4. Run the program
    ```python
    python3 DC_RNN_model.py
